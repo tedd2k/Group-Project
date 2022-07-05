@@ -2,7 +2,7 @@ from tkinter import *
 import numpy as np
 import socket
 
-size_of_board = 1200
+size_of_board = 1000
 symbol_size = (size_of_board / 3 - size_of_board / 8) / 2
 symbol_thickness = 10
 symbol_X_color = '#FF69B4'
