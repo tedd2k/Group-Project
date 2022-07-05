@@ -8,6 +8,9 @@ port = 8888
 s.bind(('', port))
 print("Binded at port: " + str(port))
 
+s.listen(5)
+print("Socket is waiting for client.")
+
 while True:
         c, addr = s.accept()
         print("Connected from: " + str(addr))
